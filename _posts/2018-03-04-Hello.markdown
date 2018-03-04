@@ -1,0 +1,29 @@
+---
+layout:     post
+title:      "Hello"
+subtitle:   " \"Hello World, Hello Blog\""
+date:       2018-03-04 9:00:00
+author:     "parkin"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - 生活
+---
+# 写在前面
+
+------
+
+本着学习和分享的精神，parkin小站终于开通，主要为整理散落在各处的笔记，主要用于：
+
+> * 整理知识，学习笔记
+> * 发布杂文，所见所想
+> * 撰写发布技术文稿
+
+
+目前的大致方向为，以后会不断进行拓展：
+
+> * Java相关知识和架构
+> * 数据库、服务器相关知识
+> * Linux系统相关
+
+欢迎来到这个小天地，也希望微薄之力能够帮助到你
