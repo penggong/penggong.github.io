@@ -1,19 +1,15 @@
 ---
 layout:     keynote
-title:      "\"Linux环境准备\""
+title:      "Linux环境准备"
 subtitle:   ""
 date:       2018-03-07
 author:     "parkin"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-js-module"
+catalog: true
 tags:
     - linux
 ---
 
-# 
-
-标签： linux
-
----
 
 > *目录
 一、 说明 3
