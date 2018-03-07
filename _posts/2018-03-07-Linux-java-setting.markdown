@@ -1,15 +1,17 @@
 ---
-layout:     keynote
+layout:     post
 title:      "Linux环境准备"
 subtitle:   ""
 date:       2018-03-07
 author:     "parkin"
 header-img: "img/post-bg-js-module"
-catalog: true
+catalog: ture
 tags:
     - linux
 ---
+# Linux环境准备
 
+------
 
 > *目录
 一、 说明 3
