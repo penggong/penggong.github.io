@@ -2,7 +2,7 @@
 layout:     post
 title:      "Linux环境准备"
 subtitle:   ""
-date:       2018-03-07
+date:       2018-03-07 14:00
 author:     "parkin"
 header-img: "img/post-bg-js-module"
 catalog: ture
