@@ -37,14 +37,14 @@ tags:
 3.3 启动 11
 
 
-#一、 说明
+# 一、说明
 本文章旨在引导项目环境准备工作的顺利执行。
-#二、 系统配置
+# 二、 系统配置
 系统环境 Red Hat Enterprise 6.5
 容器 tomcat
 数据库 oracle 11G R2
 
-#三、 安装步骤
+# 三、安装步骤
 目录对应表：
 tomcat /opt
 jdk /usr/java
