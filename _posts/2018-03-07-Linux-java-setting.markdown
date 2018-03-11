@@ -38,18 +38,23 @@ tags:
 
 
 # 一、说明
+
 本文章旨在引导项目环境准备工作的顺利执行。
+
 # 二、 系统配置
+
 系统环境 Red Hat Enterprise 6.5
-容器 tomcat
+容器 tomcat7
 数据库 oracle 11G R2
 
 # 三、安装步骤
+
 目录对应表：
 tomcat /opt
 jdk /usr/java
 app /opt/apache-tomcat-7.0.69/webapps
 注释：该操作中Linux命令在终端中操作，可使用SecureCRT等软件。
+
 ##1 JDK的安装
 ###1.1 创建java目录
 命令：mkdir /usr/java
