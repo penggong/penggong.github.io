@@ -55,11 +55,13 @@ jdk /usr/java
 app /opt/apache-tomcat-7.0.69/webapps
 注释：该操作中Linux命令在终端中操作，可使用SecureCRT等软件。
 
-##1 JDK的安装
-###1.1 创建java目录
+## 1 JDK的安装
+
+### 1.1 创建java目录
 命令：mkdir /usr/java
 
-###1.2 上传JDK安装包至 /usr/java目录下
+### 1.2 上传JDK安装包至 /usr/java目录下
+
 使用Xmanager软件
 
 选择xftp
@@ -73,7 +75,9 @@ app /opt/apache-tomcat-7.0.69/webapps
 连接成功后进入如下界面，并选择进入到刚才建立的目录下/usr/java
 
 在左侧选择Linux版本JDK的安装包后拖放至右侧目录下，等待上传完毕。
-###1.3 解压JDK安装包
+
+### 1.3 解压JDK安装包
+
 进入到上传的目录下，解压JDK
 使用命令：
 ```
@@ -87,7 +91,8 @@ tar -xvf jdk-7u79-linux-x64.tar
 mv jdk1.7.0_79/ jdk1.7
 ```
 
-###1.4 配置环境变量
+### 1.4 配置环境变量
+
 编辑 /etc/profile文件
 命令： vi /etc/profile
 
