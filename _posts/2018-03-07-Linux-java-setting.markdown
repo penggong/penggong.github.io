@@ -37,7 +37,7 @@ tags:
 3.3 启动 11
 
 
- 一、说明
+# 一、说明
 
 本文章旨在引导项目环境准备工作的顺利执行。
 
@@ -106,10 +106,14 @@ export PATH=$JAVA_HOME/bin:$PATH
 查看java版本信息：
 
 至此，JDK安装完成。
-#2 Tomcat的安装和配置
-###2.1 Tomact安装包上传
+
+# 2 Tomcat的安装和配置
+
+### 2.1 Tomact安装包上传
+
 同JDK上传方法，将tomcat安装包上传至目录 /opt下
-###2.2 解压tomcat安装包及项目包上传
+### 2.2 解压tomcat安装包及项目包上传
+
 命令：tar -xvf apache-tomcat-7.0.69
 解压完毕后，/opt目录下
 
@@ -117,8 +121,10 @@ export PATH=$JAVA_HOME/bin:$PATH
 命令：cd apach-tomcat-7.0.69
 
 将项目文件上传至/opt/apache-tomcat-7.0.69/webapps目录下，将 law_files文件夹上传至 /usr 目录下，上传方法同JDK安装包上传。
-##2.3 修改配置信息
-###2.3.1 Tomcat默认端口号修改（默认为8080）
+## 2.3 修改配置信息
+
+### 2.3.1 Tomcat默认端口号修改（默认为8080）
+
 路径：/opt/apache-tomcat-7.0.69/conf/server.xml.
 ```
 <Connector port="8181" protocol="HTTP/1.1"
@@ -127,17 +133,18 @@ export PATH=$JAVA_HOME/bin:$PATH
 ```
 
 
-###2.3.2 配置完成后运行startup.sh即可
+### 2.3.2 配置完成后运行startup.sh即可
+
 命令: /opt/apache-tomcat-7.0.69/bin/startup.sh
 浏览器中输入网址后出现如下界面，即为安装成功。
 
-###2.3.3 系统时间修改
+### 2.3.3 系统时间修改
+
 ```
   Date -s 06/20/16 16年06 月20
   Date -s 20:16:25 20时16分25秒
 ```
-###2.3.4 系统配置修改
-
+### 2.3.4 系统配置修改
 
 防止启动tomcat时报错(内存不足)，需添加下列语句。
 ```
@@ -145,12 +152,15 @@ export PATH=$JAVA_HOME/bin:$PATH
 JAVA_OPTS='-Xms512m -Xmx1024m -XX:MaxPermSize=256m'
 ```
 
-#附录1 OpenOffice安装
-###1.1 上传安装包并解压
+# 附录1 OpenOffice安装
+
+### 1.1 上传安装包并解压
+
 上传方法同JDK安装包上传
 tar -xvf Apache_OpenOffice_4.1.2_Linux_x86-64_install-rpm_zh-CN.tar.gz
 解压完毕后，会在解压目录下出现名为zh-CN的目录
-###1.2 安装
+### 1.2 安装
+
 进入该目录下的RPMS目录，安装rpm包
 命令：rpm -ivh *.rpm
 安装完成后，进入该目录下desktop-integration/下
@@ -158,12 +168,14 @@ tar -xvf Apache_OpenOffice_4.1.2_Linux_x86-64_install-rpm_zh-CN.tar.gz
 选择相应的操作系统进行安装，该环节为redhat，选在第三个安装
 命令：rpm -ivh openoffice4.1.2-redhat-menus-4.1.2-9782.noarch.rpm
 至此，openoffice安装完成。
-###1.3 启动
+### 1.3 启动
+
 进入/opt/openoffice4/program目录下，执行下述语句启动openoffice
 soffice -headless -accept="socket,host=127.0.0.1,port=8100;urp;" -nofirststartwizard &
 通过netstat –tln可查看端口信息
 通过ps –ef | grep soffice可查看运行状况
-#附录2 常用Linux命令
+# 附录2 常用Linux命令
+
 cd /usr/java cd 绝对路径，即可进入到相应目录下
 mv 移动文件
 rm 删除
