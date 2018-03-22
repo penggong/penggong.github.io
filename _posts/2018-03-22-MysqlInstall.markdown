@@ -17,8 +17,11 @@ tags:
 # 一、Visual Studio 2013 Redistributable 安装完成后仍提示安装
 
 问题描述：如小标题
+
 环境：windows serve 2008
+
 安装包：官网下载5.7msi包,使用rar离线包因为本地缺少文件必须使用安装包版，
+
 历程：Visual Studio 2013 Redistributable 安装完成后仍提示安装，经查因为操作系统为中文，mysql 提供的visul是英文版的，mysql匹配时就会出现异常，可以手动下载安装中文版，-_-||||
 
 # 二、 远程连接授权
