@@ -4,7 +4,7 @@ title:      "mysql安装小插曲"
 subtitle:   ""
 date:       2018-03-22 15:08
 author:     "parkin"
-header-img: "img/mysql.jpeg"
+header-img: "img/mysql.jpg"
 catalog: ture
 tags:
     - mysql
