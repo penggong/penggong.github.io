@@ -9,10 +9,15 @@ catalog: ture
 tags:
     - nginx
 ---
-> 小插曲
+> nginx
 
 ------
 # nginx安装
+
+Nginx（发音同engine x）是一个异步框架的 Web服务器，也可以用作反向代理，负载平衡器 和 HTTP缓存。该软件由 Igor Sysoev 创建，并于2004年首次公开发布。同名公司成立于2011年，以提供支持。
+
+Nginx是一款免费的开源软件，根据类BSD许可证的条款发布。一大部分Web服务器使用Nginx，通常作为负载均衡器
+
 
 环境：Ubuntu 18
 
