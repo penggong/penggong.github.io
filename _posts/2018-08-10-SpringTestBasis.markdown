@@ -4,7 +4,7 @@ title:      "Spring Test单元测试基础"
 subtitle:   ""
 date:       2018-08-10 14:43
 author:     "parkin"
-header-img: "img/spring-by-pivotal_goodnight.jpg"
+header-img: "img/spring-by-pivotal_goodnight.png"
 catalog: ture
 tags:
     - spring
