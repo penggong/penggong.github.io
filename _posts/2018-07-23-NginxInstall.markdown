@@ -18,7 +18,6 @@ Nginx（发音同engine x）是一个异步框架的 Web服务器，也可以用
 
 Nginx是一款免费的开源软件，根据类BSD许可证的条款发布。一大部分Web服务器使用Nginx，通常作为负载均衡器
 
-
 环境：Ubuntu 18
 
 安装版本：Nginx 1.9.9
