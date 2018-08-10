@@ -4,7 +4,7 @@ title:      "Spring Test单元测试基础"
 subtitle:   ""
 date:       2018-08-10 14:43
 author:     "parkin"
-header-img: "img/post-bg-js-module.jpg"
+header-img: "img/spring-by-pivotal.jpg"
 catalog: ture
 tags:
     - spring
@@ -30,9 +30,10 @@ tags:
 
 
 
-###基础依赖
+### 基础依赖
 
-**SpringMVC　中的应用**　maven依赖:
+**SpringMVC中的应用
+**　maven依赖:
 
 	<dependency>
         <groupId>org.springframework</groupId>
