@@ -32,8 +32,7 @@ tags:
 
 ### 基础依赖
 
-**SpringMVC中的应用
-**　maven依赖:
+**SpringMVC中的应用**　maven依赖:
 
 	<dependency>
         <groupId>org.springframework</groupId>
